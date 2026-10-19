@@ -1,3 +1,9 @@
+## Live Demo
+
+**Try Analytica:** https://analytics-dashboard-two-flame.vercel.app/
+
+**Source Code:** https://github.com/suhanasristy12345-bot/analytics-dashboard
+
 # Analytica — Business Intelligence Dashboard
 
 A responsive, interactive business analytics dashboard built with React and Vite. Analytica helps visualize sales performance, monitor key business metrics, explore transaction data, and discover useful business insights through a clean, modern interface.
