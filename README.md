@@ -101,3 +101,5 @@ This project uses sample data for demonstration. The dashboard is not currently 
 Analytica is a portfolio project demonstrating interactive dashboard development, business data visualization, and responsive front-end design.
 
 **Built with React. Visualized with Chart.js. Deployed on Vercel.**
+
+![Analytica Dashboard Overview](public/screenshot/dashboard-overview.png)
