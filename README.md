@@ -1,27 +1,30 @@
-## Live Demo
-
-**Try Analytica:** https://analytics-dashboard-two-flame.vercel.app/
-
-**Source Code:** https://github.com/suhanasristy12345-bot/analytics-dashboard
-
 # Analytica — Business Intelligence Dashboard
 
-A responsive, interactive business analytics dashboard built with React and Vite. Analytica helps visualize sales performance, monitor key business metrics, explore transaction data, and discover useful business insights through a clean, modern interface.
+**An interactive business analytics dashboard built with React, Vite, and Chart.js.**
 
-## Features
+Explore sales trends, monitor business KPIs, filter transactions, and discover actionable insights through a clean, responsive interface.
 
-- **Key Performance Indicators (KPIs):** View revenue, orders, and customer metrics with growth comparisons.
-- **Interactive Charts:** Explore monthly revenue trends and sales across product categories.
-- **Date Period Selection:** Switch between the available 30-day, 90-day, and 7-month views.
-- **Business Insights:** View top-performing categories, pending orders, best revenue month, and average monthly revenue.
-- **Business Recommendations:** Cycle through generated insights and suggested actions.
-- **Transaction Search:** Find transactions by product name.
-- **Category and Status Filters:** Narrow the transaction table to relevant results.
-- **CSV Export:** Export transactions matching the selected search and filters.
+### 🔗 Links
+
+- **Live Demo:** [Open Analytica](https://analytics-dashboard-two-flame.vercel.app/)
+- **Source Code:** [GitHub Repository](https://github.com/suhanasristy12345-bot/analytics-dashboard)
+
+---
+
+## 📊 Features
+
+- **Business KPIs:** Revenue, orders, customers, and growth comparisons.
+- **Interactive Charts:** Monthly revenue trends and category sales analysis.
+- **Period Selection:** Switch between the available 30-day, 90-day, and 7-month views.
+- **Business Insights:** Explore the strongest revenue month, average monthly revenue, top category, and pending orders.
+- **Dynamic Recommendations:** Cycle through generated business insights and suggested actions.
+- **Transaction Search:** Search transactions by product name.
+- **Filtering:** Filter transactions by category and status.
+- **CSV Export:** Export transactions matching the current search and filters.
 - **Dark Mode:** Switch between light and dark themes.
-- **Responsive Layout:** Adapt the dashboard to desktop, tablet, and mobile screens.
+- **Responsive Design:** Supports desktop, tablet, and mobile screens.
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - React
 - Vite
@@ -31,7 +34,7 @@ A responsive, interactive business analytics dashboard built with React and Vite
 - Lucide React
 - CSS
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -39,13 +42,18 @@ Install [Node.js](https://nodejs.org/) and npm.
 
 ### Installation
 
-Open a terminal in the project directory and install the dependencies:
+Clone the repository:
+
+```bash
+git clone https://github.com/suhanasristy12345-bot/analytics-dashboard.git
+cd analytics-dashboard
+```
+
+Install dependencies:
 
 ```bash
 npm install
 ```
-
-### Run Locally
 
 Start the development server:
 
@@ -53,51 +61,43 @@ Start the development server:
 npm run dev
 ```
 
-Open the local URL displayed in your terminal to view the dashboard.
+Open the local URL displayed in your terminal.
 
 ### Production Build
-
-Create a production build:
 
 ```bash
 npm run build
 ```
 
-Preview the production build locally:
-
-```bash
-npm run preview
-```
-
-## Project Structure
+## 📁 Project Structure
 
 ```text
 analytics-dashboard/
 ├── public/
 ├── src/
 │   ├── assets/
-│   ├── App.css
 │   ├── App.jsx
+│   ├── App.css
 │   ├── index.css
 │   └── main.jsx
 ├── index.html
 ├── package.json
-├── package-lock.json
-├── README.md
-└── vite.config.js
+└── README.md
 ```
 
-## Data
+## 📌 Data Disclaimer
 
-The dashboard currently uses sample data for demonstration. Its metrics, charts, and recommendations are based on the data included in the application and are not connected to a live business database.
+This project uses sample data for demonstration. The dashboard is not currently connected to a live business database.
 
-## Future Improvements
+## 🔮 Future Improvements
 
-- Integrate a real-world data source or API.
+- Integrate a real data source or API.
 - Add customizable date ranges.
-- Expand reporting and analytics capabilities.
-- Add automated tests and further accessibility improvements.
+- Expand analytics and reporting.
+- Add automated testing and accessibility improvements.
 
-## Author
+## 👨‍💻 About
 
-Developed as a portfolio project to demonstrate React development, data visualization, and interactive dashboard design.
+Analytica is a portfolio project demonstrating interactive dashboard development, business data visualization, and responsive front-end design.
+
+**Built with React. Visualized with Chart.js. Deployed on Vercel.**
